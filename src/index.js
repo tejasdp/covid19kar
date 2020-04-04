@@ -13,7 +13,7 @@ import moment from "moment";
 mapboxgl.accessToken =
   "pk.eyJ1IjoiamVldmFudGhhbmFsIiwiYSI6ImNrOGI3Y2UwZzA5ZTIzZm8zaHBoc3k5bmYifQ.u_IlM2qUJmPReoqA54Qqhw";
 const PREFECTURE_JSON_PATH = "static/prefectures.geojson";
-const JSON_PATH = "https://data.covid19kerala.info/summary/latest.json";
+const JSON_PATH = "https://data.covid19karnataka.info/summary/latest.json";
 const TIME_FORMAT = "YYYY-MM-DD";
 const COLOR_ACTIVE = "rgb(238,161,48)";
 const COLOR_CONFIRMED = "rgb(223,14,31)";
@@ -22,7 +22,7 @@ const COLOR_DECEASED = "rgb(55,71,79)";
 const COLOR_TESTED = "rgb(164,173,192)";
 const COLOR_TESTED_DAILY = "rgb(209,214,223)";
 const COLOR_INCREASE = "rgb(163,172,191)";
-const PAGE_TITLE = "Coronavirus Disease (COVID-19) Kerala Tracker";
+const PAGE_TITLE = "Coronavirus Disease (COVID-19) Karnataka Tracker";
 let LANG = "en";
 
 // Global vars
